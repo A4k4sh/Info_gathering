@@ -19,7 +19,9 @@ options:
   -d DOMAIN, --domain DOMAIN
                         Enter the domain name footprinting.
   -s SHODAN, --shodan SHODAN
-                        Enter the IP for shodan search
+                        Enter the IP for shodan search.
   -o OUTPUT, --output OUTPUT
                         Enter the file to write output to.
+  -a shodan_api, --api api
+                        Enter the api for shodan search.
                        
