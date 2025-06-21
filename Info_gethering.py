@@ -12,7 +12,7 @@ print("""
 ██║██║╚████║██╔══╝░░██║░░██║██║░░╚██╗██╔══██║░░░██║░░░██╔══██║██╔══╝░░██╔══██╗██║██║╚████║██║░░╚██╗
 ██║██║░╚███║██║░░░░░╚█████╔╝╚██████╔╝██║░░██║░░░██║░░░██║░░██║███████╗██║░░██║██║██║░╚███║╚██████╔╝
 ╚═╝╚═╝░░╚══╝╚═╝░░░░░░╚════╝░░╚═════╝░╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝╚═╝╚═╝░░╚══╝░╚═════╝░
-""")
+Created by A4k4sh""")
 argparse = argparse.ArgumentParser(description="This is a basic information gethering tool.", usage="python3 info_gethering.py -d Domain [-s IP] [-a Shodan_api]")
 argparse.add_argument("-d", "--domain", help="Enter the domain name footprinting.")#,required=True
 argparse.add_argument("-s","--shodan",help="Enter the IP for shodan search")
